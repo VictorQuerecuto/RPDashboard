@@ -1,0 +1,21 @@
+{
+  "name": "rpdashboard",
+  "version": "1.0.0",
+  "description": "App that displays orders, status, and address that have been placedby internal employees.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js --exec  \"npm run lint && node\""
+  },
+  "author": "Victor Querecuto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lint": "^0.7.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
